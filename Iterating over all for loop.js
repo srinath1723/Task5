@@ -23,7 +23,7 @@ let resume_data = {
     languages:["Tamil,English"],
     Intersts:["SDE,Data Analytics,Data Visualization"],
     Events:["Participated in Cirqtrix-2k19, Tech-Event conducted by Karpagam College of Engineering, Coimbatore",
-    "Participated in Kurukshethra’20-Circuit Craze, TechEvent conducted by College of Engineering Guindy,Chennai"
+    "Participated in Kurukshethra 20-Circuit Craze, TechEvent conducted by College of Engineering Guindy,Chennai"
     ],
     Awards:[ "Won Gold Medal at “Engineering Day-Marathon",
     "Runner Up in National Level Competition in Ball Badminton at SNS College of Engineering",
@@ -33,7 +33,9 @@ let resume_data = {
      Decleration:"The information furnished above is correct to the best of my knowledge"
                        
  }
- //itration in for in loop
+
+
+ //itration using for in loop
  function for_in_loop()
  {
  for (const key in resume_data) 
@@ -61,7 +63,9 @@ let resume_data = {
         console.log();
     }
 }}
-//iteration in for of loop
+
+
+//iteration using for of loop
  function for_of_loop()
  { 
  for(let key of Object.keys(resume_data))
@@ -89,6 +93,7 @@ let resume_data = {
         console.log();
     }
 }}
+
 //iteration using forEach
 function forEach_loop()
 {
