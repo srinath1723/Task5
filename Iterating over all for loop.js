@@ -33,9 +33,17 @@ let resume_data = {
      Decleration:"The information furnished above is correct to the best of my knowledge"
                        
  }
+// iteration using for loop
+function for_loop()
+{
+ let arr=Object.keys(resume_data)
+ for(let ind=0;ind<arr.length;ind++){
+    key=arr[ind]
+    console.log(key,resume_data[key])
+ }
+}
 
-
- //itration using for in loop
+ //iteration using for in loop
  function for_in_loop()
  {
  for (const key in resume_data) 
@@ -122,6 +130,7 @@ Object.entries(resume_data).forEach(([key, data]) => {
     }
  });
 }
+for_loop();  // iteration using for loop
 for_in_loop(); // iteration using for in loop
 for_of_loop(); // iteration using for of loop
 forEach_loop(); // iteration using forEach loop
